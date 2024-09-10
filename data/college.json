@@ -1,0 +1,119 @@
+{
+  "collegeCode": "123456",
+  "collegeName": "Sunshine State University",
+  "shortName": "SSU",
+  "establishedYear": 1965,
+  "type": "Public",
+  "location": {
+    "city": "Sunshine City",
+    "state": "California",
+    "country": "USA",
+    "zipCode": "90001",
+    "address": "123 University Ave, Sunshine City, CA"
+  },
+  "website": "https://www.ssu.edu",
+  "email": "info@ssu.edu",
+  "phone": "+1 800-123-4567",
+  "campusSize": "500 acres",
+  "numStudents": 25000,
+  "numFaculty": 1200,
+  "rank": 45,
+  "rating": 4.7,
+  "departments": [
+    {
+      "title": "Engineering",
+      "image": ""
+    },
+    {
+      "title": "Business",
+      "image": ""
+    },
+    {
+      "title": "Humanities",
+      "image": ""
+    },
+    {
+      "title": "Science",
+      "image": ""
+    },
+    {
+      "title": "Law",
+      "image": ""
+    },
+    {
+      "title": "Education",
+      "image": ""
+    },
+    {
+      "title": "Medicine",
+      "image": ""
+    }
+  ],
+  "coursesOffered": [
+    "BSc Computer Science",
+    "BBA",
+    "MBA",
+    "BSc Physics",
+    "LLB",
+    "MBBS",
+    "BEd"
+  ],
+  "admissionDates": {
+    "start": "2024-05-01",
+    "end": "2024-07-31"
+  },
+  "researchAreas": [
+    "Artificial Intelligence",
+    "Climate Change",
+    "Robotics",
+    "Quantum Computing",
+    "Biotechnology"
+  ],
+  "sportsFacilities": [
+    "Football",
+    "Basketball",
+    "Swimming",
+    "Tennis",
+    "Badminton",
+    "Gymnastics"
+  ],
+  "events": [
+    {
+      "name": "Tech Symposium",
+      "date": "2024-09-15",
+      "location": "Main Hall"
+    },
+    {
+      "name": "Sports Fest",
+      "date": "2024-10-10",
+      "location": "Sports Ground"
+    }
+  ],
+  "graduateEmploymentRate": "85%",
+  "studentToFacultyRatio": "21:1",
+  "scholarshipAvailable": true,
+  "annualTuitionFees": {
+    "domestic": 15000,
+    "international": 25000
+  },
+  "campusHostelAvailable": true,
+  "internationalStudentPrograms": true,
+  "partnerships": ["Google", "Microsoft", "Tesla", "Harvard University"],
+  "notableAlumni": [
+    {
+      "name": "John Doe",
+      "field": "Tech Entrepreneur",
+      "graduationYear": 2010,
+      "image": ""
+    },
+    {
+      "name": "Jane Smith",
+      "field": "Biomedical Scientist",
+      "graduationYear": 2015,
+      "image": ""
+    }
+  ],
+
+  "averageClassSize": 30,
+  "facultyResearchFunding": "$20 million"
+}
