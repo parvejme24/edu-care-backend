@@ -1,5 +1,6 @@
 const College = require("../models/College");
 
+// add new college
 exports.createCollege = async (req, res) => {
   try {
     const college = new College(req.body);
@@ -10,6 +11,7 @@ exports.createCollege = async (req, res) => {
   }
 };
 
+// get all college
 exports.getAllColleges = async (req, res) => {
   try {
     const colleges = await College.find();
@@ -19,6 +21,7 @@ exports.getAllColleges = async (req, res) => {
   }
 };
 
+// get college by id
 exports.getCollegeById = async (req, res) => {
   try {
     const college = await College.findById(req.params.id);
@@ -29,6 +32,7 @@ exports.getCollegeById = async (req, res) => {
   }
 };
 
+// update college info
 exports.updateCollege = async (req, res) => {
   try {
     const updatedCollege = await College.findByIdAndUpdate(
@@ -44,6 +48,7 @@ exports.updateCollege = async (req, res) => {
   }
 };
 
+// delete a college
 exports.deleteCollege = async (req, res) => {
   try {
     const college = await College.findByIdAndDelete(req.params.id);
@@ -54,6 +59,7 @@ exports.deleteCollege = async (req, res) => {
   }
 };
 
+// search collgege by college name or short name
 exports.searchCollege = async (req, res) => {
   const { query } = req.query;
   try {
@@ -67,6 +73,17 @@ exports.searchCollege = async (req, res) => {
     if (colleges.length === 0) {
       return res.status(404).json({ message: "No colleges found" });
     }
+
+    res.status(200).json(colleges);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
+// get top rating collge controller
+exports.getTopRatedColleges = async (req, res) => {
+  try {
+    const colleges = await College.find().sort({ rating: -1 }).limit(10);
 
     res.status(200).json(colleges);
   } catch (err) {
