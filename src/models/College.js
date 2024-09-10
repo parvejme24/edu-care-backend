@@ -1,50 +1,3 @@
-// const mongoose = require("mongoose");
-// const { Schema } = mongoose;
-
-// const collegeSchema = new Schema({
-//   name: {
-//     type: String,
-//     required: true,
-//   },
-//   imageUrl: {
-//     type: String,
-//     required: true,
-//   },
-//   rating: {
-//     type: Number,
-//     min: 0,
-//     max: 5,
-//   },
-//   department: {
-//     type: String,
-//   },
-//   admissionDate: {
-//     type: Date,
-//     required: true,
-//   },
-//   researchCount: {
-//     type: Number,
-//   },
-//   events: [
-//     {
-//       type: String,
-//     },
-//   ],
-//   sports: [
-//     {
-//       type: String,
-//     },
-//   ],
-//   researchHistory: {
-//     type: String,
-//   },
-//   description: {
-//     type: String,
-//   },
-// });
-
-// module.exports = mongoose.model("College", collegeSchema);
-
 const mongoose = require("mongoose");
 
 const locationSchema = new mongoose.Schema({
@@ -57,7 +10,7 @@ const locationSchema = new mongoose.Schema({
 
 const departmentSchema = new mongoose.Schema({
   title: { type: String, required: true },
-  image: { type: String },
+  image: { type: String, required: true },
 });
 
 const eventSchema = new mongoose.Schema({
@@ -75,6 +28,8 @@ const alumniSchema = new mongoose.Schema({
 
 const collegeSchema = new mongoose.Schema({
   collegeCode: { type: String, required: true },
+  image: { type: String, required: true },
+  thumbnailImage: { type: String, required: true }, // Additional thumbnail image field
   collegeName: { type: String, required: true },
   shortName: { type: String, required: true },
   establishedYear: { type: Number, required: true },
@@ -88,6 +43,7 @@ const collegeSchema = new mongoose.Schema({
   numFaculty: { type: Number, required: true },
   rank: { type: Number, required: true },
   rating: { type: Number, required: true },
+  description: { type: String, required: true }, // History/Description field for long text with paragraphs
   departments: [departmentSchema],
   coursesOffered: { type: [String], required: true },
   admissionDates: {
@@ -110,8 +66,12 @@ const collegeSchema = new mongoose.Schema({
   notableAlumni: [alumniSchema],
   averageClassSize: { type: Number, required: true },
   facultyResearchFunding: { type: String, required: true },
+  campusImages: { type: [String], required: true }, // List of campus images
+  eventsImages: { type: [String], required: true }, // List of event images
+  sportsImages: { type: [String], required: true }, // List of sports images
 });
 
+// Create the College model from the schema
 const College = mongoose.model("College", collegeSchema);
 
 module.exports = College;

@@ -1,119 +1,1604 @@
-{
-  "collegeCode": "123456",
-  "collegeName": "Sunshine State University",
-  "shortName": "SSU",
-  "establishedYear": 1965,
-  "type": "Public",
-  "location": {
-    "city": "Sunshine City",
-    "state": "California",
-    "country": "USA",
-    "zipCode": "90001",
-    "address": "123 University Ave, Sunshine City, CA"
+[
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
   },
-  "website": "https://www.ssu.edu",
-  "email": "info@ssu.edu",
-  "phone": "+1 800-123-4567",
-  "campusSize": "500 acres",
-  "numStudents": 25000,
-  "numFaculty": 1200,
-  "rank": 45,
-  "rating": 4.7,
-  "departments": [
-    {
-      "title": "Engineering",
-      "image": ""
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
     },
-    {
-      "title": "Business",
-      "image": ""
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
     },
-    {
-      "title": "Humanities",
-      "image": ""
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
     },
-    {
-      "title": "Science",
-      "image": ""
-    },
-    {
-      "title": "Law",
-      "image": ""
-    },
-    {
-      "title": "Education",
-      "image": ""
-    },
-    {
-      "title": "Medicine",
-      "image": ""
-    }
-  ],
-  "coursesOffered": [
-    "BSc Computer Science",
-    "BBA",
-    "MBA",
-    "BSc Physics",
-    "LLB",
-    "MBBS",
-    "BEd"
-  ],
-  "admissionDates": {
-    "start": "2024-05-01",
-    "end": "2024-07-31"
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
   },
-  "researchAreas": [
-    "Artificial Intelligence",
-    "Climate Change",
-    "Robotics",
-    "Quantum Computing",
-    "Biotechnology"
-  ],
-  "sportsFacilities": [
-    "Football",
-    "Basketball",
-    "Swimming",
-    "Tennis",
-    "Badminton",
-    "Gymnastics"
-  ],
-  "events": [
-    {
-      "name": "Tech Symposium",
-      "date": "2024-09-15",
-      "location": "Main Hall"
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
     },
-    {
-      "name": "Sports Fest",
-      "date": "2024-10-10",
-      "location": "Sports Ground"
-    }
-  ],
-  "graduateEmploymentRate": "85%",
-  "studentToFacultyRatio": "21:1",
-  "scholarshipAvailable": true,
-  "annualTuitionFees": {
-    "domestic": 15000,
-    "international": 25000
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
   },
-  "campusHostelAvailable": true,
-  "internationalStudentPrograms": true,
-  "partnerships": ["Google", "Microsoft", "Tesla", "Harvard University"],
-  "notableAlumni": [
-    {
-      "name": "John Doe",
-      "field": "Tech Entrepreneur",
-      "graduationYear": 2010,
-      "image": ""
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
     },
-    {
-      "name": "Jane Smith",
-      "field": "Biomedical Scientist",
-      "graduationYear": 2015,
-      "image": ""
-    }
-  ],
-
-  "averageClassSize": 30,
-  "facultyResearchFunding": "$20 million"
-}
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  },
+  {
+    "collegeCode": "C001",
+    "image": "https://i.ibb.co/MC6rFYC/campus-347285-1280.jpg",
+    "thumbnailImage": "https://i.ibb.co/CBL8b2s/zhejiang-university-3776783-1280.jpg",
+    "collegeName": "Techfinity University",
+    "shortName": "TU",
+    "establishedYear": 1978,
+    "type": "Private",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA",
+      "zipCode": "10001",
+      "address": "123 Main St"
+    },
+    "website": "https://techfinity.edu",
+    "email": "info@techfinity.edu",
+    "phone": "+1-123-456-7890",
+    "campusSize": "300 acres",
+    "numStudents": 15000,
+    "numFaculty": 800,
+    "rank": 10,
+    "rating": 4.7,
+    "description": "Techfinity University is one of the premier educational institutions... \n\n### History\nFounded in 1978...",
+    "departments": [
+      {
+        "title": "Physics",
+        "image": "https://i.ibb.co/QDtL2Tr/atom.png"
+      },
+      {
+        "title": "Mathematics",
+        "image": "https://i.ibb.co/3vk4ymh/mathematics.png"
+      }
+    ],
+    "coursesOffered": [
+      "BSc Physics",
+      "BSc Mathematics",
+      "BSc Computer Science"
+    ],
+    "admissionDates": {
+      "start": "2024-06-01T00:00:00.000Z",
+      "end": "2024-08-31T00:00:00.000Z"
+    },
+    "researchAreas": [
+      "Quantum Mechanics",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "sportsFacilities": ["Basketball", "Football", "Swimming"],
+    "events": [
+      {
+        "name": "Orientation Day",
+        "date": "2024-09-15T00:00:00.000Z",
+        "location": "Main Auditorium"
+      }
+    ],
+    "graduateEmploymentRate": "92%",
+    "studentToFacultyRatio": "18:1",
+    "scholarshipAvailable": true,
+    "annualTuitionFees": {
+      "domestic": 20000,
+      "international": 30000
+    },
+    "campusHostelAvailable": true,
+    "internationalStudentPrograms": true,
+    "partnerships": ["MIT", "Stanford", "Harvard"],
+    "notableAlumni": [
+      {
+        "name": "John Doe",
+        "field": "Physics",
+        "graduationYear": 2001,
+        "image": "https://i.ibb.co/rmkJth8/puzzle.png"
+      }
+    ],
+    "averageClassSize": 25,
+    "facultyResearchFunding": "$50 million",
+    "campusImages": [
+      "https://i.ibb.co/gM46dsk/furniture-998265-1280-2.jpg",
+      "https://i.ibb.co/Ytr28Mj/home-1622401-1280.jpg"
+    ],
+    "eventsImages": [
+      "https://i.ibb.co/3pDKcvg/outdoor-4437215-1280.jpg",
+      "https://i.ibb.co/4Tsg56S/drinks-1283608-1280.jpg"
+    ],
+    "sportsImages": [
+      "https://i.ibb.co/ZmMtmkr/football-1453700-1280.jpg",
+      "https://i.ibb.co/7vMfXPW/athletes-1867185-1280.jpg"
+    ]
+  }
+]

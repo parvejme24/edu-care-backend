@@ -53,3 +53,23 @@ exports.deleteCollege = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
+
+exports.searchCollege = async (req, res) => {
+  const { query } = req.query;
+  try {
+    const colleges = await College.find({
+      $or: [
+        { collegeName: { $regex: query, $options: "i" } },
+        { shortName: { $regex: query, $options: "i" } },
+      ],
+    });
+
+    if (colleges.length === 0) {
+      return res.status(404).json({ message: "No colleges found" });
+    }
+
+    res.status(200).json(colleges);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
